@@ -1,2 +1,2 @@
 # ug-aplikacje-przemyslowe
-Projekt na przedmiot Aplikacje Przemysłowe (2025/2026)
+Repozytorium na przedmiot Aplikacje Przemysłowe (2025/2026)

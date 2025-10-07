@@ -7,11 +7,20 @@ public enum JobPositions {
     PROGRAMMER(8000, 4),
     INTERN(3000, 5);
 
-    public final float baseSalary;
-    public final int hierarchyLevel;
+    private final float baseSalary;
+    private final int hierarchyLevel;
 
     JobPositions(float baseSalary, int hierarchyLevel) {
         this.baseSalary = baseSalary;
         this.hierarchyLevel = hierarchyLevel;
+    }
+
+    // Getters
+    public float getBaseSalary() {
+        return baseSalary;
+    }
+
+    public int getHierarchyLevel() {
+        return hierarchyLevel;
     }
 }
